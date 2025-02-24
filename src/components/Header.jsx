@@ -8,7 +8,7 @@ import Button from "./Button";
 const Header = () => {
   return (
     <>
-      <div className="sticky top-0 z-50 flex w-full items-center justify-between py-5 md:py-7 lg:py-10">
+      <div className="sticky top-0 z-50 flex w-full items-center justify-between px-5 py-5 md:px-8 md:py-7 lg:px-24 lg:py-10 xl:px-40">
         <Link to="/" className="flex items-center gap-2">
           <img src={Logo} alt="Miracle Logo" className="w-5 md:w-7" />
           <p className="text-lg font-medium md:text-3xl">Miracle</p>

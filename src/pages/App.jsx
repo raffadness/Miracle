@@ -10,17 +10,21 @@ import NotFound from "./NotFound";
 // Components Import
 import Loading from "../components/Loading";
 import ErrorBoundary from "../components/ErrorBoundary";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const App = () => {
   return (
-    <div className="bg-white px-5 text-gray-900 md:px-8 lg:px-24 xl:px-40">
+    <div className="bg-white text-gray-900">
       <ErrorBoundary>
         <Routes>
           <Route
             path="/"
             element={
               <Suspense fallback={<Loading />}>
+                <Header />
                 <Home />
+                <Footer />
               </Suspense>
             }
           />
@@ -28,7 +32,9 @@ const App = () => {
             path="/about"
             element={
               <Suspense fallback={<Loading />}>
+                <Header />
                 <About />
+                <Footer />
               </Suspense>
             }
           />

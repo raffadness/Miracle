@@ -43,30 +43,85 @@ const Testi = () => {
             about Our Digital Marketing Services
           </p>
         </div>
-        <Card className="flex w-full flex-col overflow-hidden bg-gray-900 p-12 shadow-none">
-          <div></div>
+        <Card className="flex w-full flex-col gap-10 overflow-hidden bg-gray-900 p-12 shadow-none xl:gap-20">
+          <div className="flex w-full flex-row gap-15 overflow-auto">
+            <div className="flex w-full flex-col">
+              <div className="relative w-[450px] text-white lg:w-[500px] xl:w-[700px]">
+                <img
+                  src={Bubble}
+                  alt="Bubble Testimonials"
+                  className="w-full"
+                />
+                <p className="absolute top-0 p-6 text-sm lg:p-7 xl:p-11 xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore quia quidem eum in officia quos laudantium ipsum esse
+                  distinctio quae.
+                </p>
+              </div>
+              <div className="flex flex-col self-start pl-16 text-white">
+                <p className="text-light-green text-xl font-semibold">Jon Do</p>
+                <p>CEO at Company AZY</p>
+              </div>
+            </div>
+            <div className="flex w-full flex-col">
+              <div className="relative w-[450px] text-white lg:w-[500px] xl:w-[700px]">
+                <img
+                  src={Bubble}
+                  alt="Bubble Testimonials"
+                  className="w-full"
+                />
+                <p className="absolute top-0 p-6 text-sm lg:p-7 xl:p-11 xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore quia quidem eum in officia quos laudantium ipsum esse
+                  distinctio quae.
+                </p>
+              </div>
+              <div className="flex flex-col self-start pl-16 text-white">
+                <p className="text-light-green text-xl font-semibold">Jon Do</p>
+                <p>CEO at Company AZY</p>
+              </div>
+            </div>
+            <div className="flex w-full flex-col">
+              <div className="relative w-[450px] text-white lg:w-[500px] xl:w-[700px]">
+                <img
+                  src={Bubble}
+                  alt="Bubble Testimonials"
+                  className="w-full"
+                />
+                <p className="absolute top-0 p-6 text-sm lg:p-7 xl:p-11 xl:text-xl">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore quia quidem eum in officia quos laudantium ipsum esse
+                  distinctio quae.
+                </p>
+              </div>
+              <div className="flex flex-col self-start pl-16 text-white">
+                <p className="text-light-green text-xl font-semibold">Jon Do</p>
+                <p>CEO at Company AZY</p>
+              </div>
+            </div>
+          </div>
           <div className="flex items-center justify-center gap-10">
             <button>
               <FontAwesomeIcon
                 icon={faArrowLeft}
-                className="text-2xl text-white"
+                className="text-lg text-white/50 lg:text-2xl"
               />
             </button>
             <div className="flex items-center justify-center gap-3">
               <button>
-                <img src={PagOn} alt="Pagination" className="w-7" />
+                <img src={PagOn} alt="Pagination" className="w-5 lg:w-7" />
               </button>
               <button>
-                <img src={PagOff} alt="Pagination" className="w-7" />
+                <img src={PagOff} alt="Pagination" className="w-5 lg:w-7" />
               </button>
               <button>
-                <img src={PagOff} alt="Pagination" className="w-7" />
+                <img src={PagOff} alt="Pagination" className="w-5 lg:w-7" />
               </button>
             </div>
             <button>
               <FontAwesomeIcon
                 icon={faArrowRight}
-                className="text-2xl text-white"
+                className="text-lg text-white lg:text-2xl"
               />
             </button>
           </div>

@@ -1,4 +1,5 @@
 import Header from "../../components/Header";
+import Footer from "../../components/Footer";
 import "../../style/styles.css";
 
 const About = () => {
@@ -6,6 +7,7 @@ const About = () => {
     <>
       <Header />
       <p className="dynamic-font">about</p>
+      <Footer />
     </>
   );
 };
