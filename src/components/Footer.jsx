@@ -19,16 +19,16 @@ const Footer = () => {
             <p className="text-4xl">Miracle</p>
           </div>
           <div className="flex flex-col items-center text-xl lg:w-full lg:flex-row lg:justify-center lg:gap-5">
-            <Link to="/about" className="py-3 text-center lg:w-[100px] lg:py-0">
+            <Link to="#" className="py-3 text-center lg:w-[100px] lg:py-0">
               About
             </Link>
-            <Link to="/about" className="py-3 text-center lg:w-[100px] lg:py-0">
+            <Link to="#" className="py-3 text-center lg:w-[100px] lg:py-0">
               Services
             </Link>
-            <Link to="/about" className="py-3 text-center lg:w-[100px] lg:py-0">
+            <Link to="#" className="py-3 text-center lg:w-[100px] lg:py-0">
               Use Cases
             </Link>
-            <Link to="/about" className="py-3 text-center lg:w-[100px] lg:py-0">
+            <Link to="#" className="py-3 text-center lg:w-[100px] lg:py-0">
               Pricing
             </Link>
           </div>

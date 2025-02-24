@@ -20,19 +20,19 @@ const Header = () => {
           <Link to="/" className="w-full px-3 py-2 lg:hidden lg:w-fit lg:p-0">
             Home
           </Link>
-          <Link to="/about" className="w-full px-3 py-2 lg:w-fit lg:p-0">
+          <Link to="#" className="w-full px-3 py-2 lg:w-fit lg:p-0">
             About
           </Link>
-          <Link to="/about" className="w-full px-3 py-2 lg:w-fit lg:p-0">
+          <Link to="#" className="w-full px-3 py-2 lg:w-fit lg:p-0">
             Services
           </Link>
-          <Link to="/about" className="w-full px-3 py-2 lg:w-fit lg:p-0">
+          <Link to="#" className="w-full px-3 py-2 lg:w-fit lg:p-0">
             Use Cases
           </Link>
-          <Link to="/about" className="w-full px-3 py-2 lg:w-fit lg:p-0">
+          <Link to="#" className="w-full px-3 py-2 lg:w-fit lg:p-0">
             Pricing
           </Link>
-          <Link to="/about" className="w-full px-3 py-2 lg:w-fit lg:p-0">
+          <Link to="#" className="w-full px-3 py-2 lg:w-fit lg:p-0">
             Blog
           </Link>
           <Button className="w-full rounded-lg border border-solid border-gray-900 bg-white py-3 text-center hover:bg-gray-900 hover:text-gray-50 lg:w-fit lg:rounded-xl lg:px-6 xl:px-9 xl:py-4">
